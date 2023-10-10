@@ -1,0 +1,110 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.header {
+    /* border :2px solid green;  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/Avangers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header nav {
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+    width: 150px;
+
+}
+
+.login-box button {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background: #db0001;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.header-content {
+    position: absolute;
+    top: 55%;
+    /* border: 2px solid rgb(0, 255, 251); */
+    padding: 10px 30px;
+    /* height: 400px; */
+    left: 53%;
+    width: 900px;
+    transform: translate(-50%, -50%);
+}
+
+.first-heading {
+    font-size: 4rem;
+    margin-left: 9rem;
+    line-height: 40px;
+}
+
+.first-2heading {
+    font-size: 3.9rem;
+    margin-left: 13rem;
+
+
+}
+
+.second-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    margin-left: 14rem;
+    line-height: 70px;
+
+}
+
+.para {
+    margin-left: 100px;
+    font-size: 1.4rem;
+}
+
+
+form {
+    /* border: 2px solid red; */
+
+    padding: 10px 90px;
+
+}
+
+.email {
+    background: #fff;
+    width: 400px;
+    font-size: 1rem;
+    padding: 20px 50px;
+    outline: none;
+    border: none;
+}
+
+.get-started-btn {
+    padding: 20px 50px;
+    font-size: 15px;
+    background: #db0001;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+
+
