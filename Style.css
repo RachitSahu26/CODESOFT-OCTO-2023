@@ -111,7 +111,7 @@ form {
 /* .................feature............. */
 
 .featured{
-    border: 2px solid rgb(238, 0, 255);
+    /* border: 2px solid rgb(238, 0, 255); */
 padding: 30px 10%;
 min-height: 150vh;
 max-height:auto ;
@@ -173,13 +173,13 @@ height: 300px;
 text-align: center;
 font-size: 1.8rem;
 padding: 10px 12% ;
-border:  2px solid greenyellow;
+/* border:  2px solid greenyellow; */
  }
  .questions ul li{
     list-style-type: none;
  }
 .list-area{
-    border:  2px solid rgb(255, 47, 47);
+    /* border:  2px solid rgb(255, 47, 47); */
     padding: 10px 180px;
     min-height: 50vh;
     max-height: auto;
@@ -240,4 +240,61 @@ transform: rotate(45deg);
 
 .questions small{
     font-size: 1.3rem;
+}
+
+.re-get-start{
+/* border: 1px solid rgb(116, 13, 220); */
+padding: 10% 10%;
+margin-top: 10px;
+}
+
+
+
+/* ........................footer.................. */
+
+.footer-container{
+/* border: 2px solid red; */
+border-top: 10px solid rgb(35, 33, 33);
+display: flex;
+justify-content: space-between;
+padding: 2% 10%;
+}
+
+
+.footer-links ul li ,.footer-social ul li{
+list-style-type: none;
+/* border: 2px solid greenyellow; */
+padding: 10px 20px;
+}
+
+.footer-links ul li a,.footer-social li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+padding: 10px 20px;
+color: white;
+}
+
+.footer-social li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* ......................copy right ............... */
+
+.footer-legal{
+
+padding: 20px 30px;
+margin-top: 70px;
+/* height: 60vh; */
+position: relative;
+}
+
+.copy-right-box{
+position: absolute;
+top: 50%;
+left: 50%;
+/* border:  2px solid greenyellow; */
+padding: 20px 40px;
+transform: translate(-50%,-50%);
 }
