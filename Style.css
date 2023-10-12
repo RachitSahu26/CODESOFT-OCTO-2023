@@ -43,14 +43,8 @@ body {
 }
 
 .header-content {
-    position: absolute;
-    top: 55%;
-    /* border: 2px solid rgb(0, 255, 251); */
-    padding: 10px 30px;
-    /* height: 400px; */
-    left: 53%;
-    width: 900px;
-    transform: translate(-50%, -50%);
+    /* border: 2px solid aqua; */
+
 }
 
 .first-heading {
@@ -58,7 +52,7 @@ body {
     margin-left: 9rem;
     line-height: 40px;
 }
-
+/* 
 .first-2heading {
     font-size: 3.9rem;
     margin-left: 13rem;
@@ -66,35 +60,28 @@ body {
 
 }
 
-.second-heading {
-    font-size: 1.8rem;
-    font-weight: 500;
-
-    margin-left: 14rem;
-    line-height: 70px;
-
-}
 
 .para {
     margin-left: 100px;
     font-size: 1.4rem;
-}
+} */
 
 
 form {
     /* border: 2px solid red; */
 
-    padding: 10px 90px;
+    padding: 10px 10px;
 
 }
 
 .email {
-    background: #fff;
+    background: transparent;
     width: 400px;
     font-size: 1rem;
     padding: 20px 50px;
-    outline: none;
-    border: none;
+    border:  1px solid rgb(107, 106, 106);
+
+ outline: auto; 
 }
 
 .get-started-btn {
@@ -125,6 +112,7 @@ padding: 50px 0;
 justify-content: space-between;
 padding: 5px 20px;
 margin-top: 60px;
+/* border-bottom: 10px solid rgb(33, 32, 32); */
 }
 .text-box{
 /* border: 2px solid rgb(13, 255, 0); */
@@ -269,9 +257,9 @@ padding: 10px 20px;
 
 .footer-links ul li a,.footer-social li a{
     font-size: 1.2rem;
-    text-decoration: none;
+
 padding: 10px 20px;
-color: white;
+color: rgb(168, 165, 165);
 }
 
 .footer-social li a{
